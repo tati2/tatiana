@@ -1,9 +1,20 @@
 body{
-	background-color: #F289AE;
+	background:url(06.jpg);
+	/*background-repeat: no-repeat;
+	background-size: 100% 100%;*/
 	font-family: 'Dancing Script', cursive;
 	font-family: 'Gloria Hallelujah', cursive;
+	margin: 0;
+	padding: 0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+
 }
 .foto{
+
 	 	width: 300px;
 	 	height: 300px;
 	 	border-radius: 50%;
@@ -16,30 +27,48 @@ img{
 
 }
  header{
-	background-color: ;
 	display:flex;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
 	flex-direction: column;
-	position: relative;
-	left: 500px;
+
  }
- p{
+ p{ 
+ 	background-color: #fff;
  	font-size: 2.0em;
- }
- section{
- 	background-color: #A74992;
+ 	color:#E62B86;
+}
+h1{
+	background-color: #fff;
+	color:#E62B86;
+}
+ section {
  	display: flex;
  	justify-content: center;
  	align-items: center;
- 	flex-direction: row;
+ 	flex-direction: column;
+ 	flex-wrap: wrap;
+ 	background-color: #fff;
+ 	width: 900px;
+ 	height: 900px;
  }
  footer{
+ 	background-color: #fff;
  	display:flex;
  	justify-content: center;
  	align-items: center;
+ 	flex-flow: wrap;
+ 	text-align: center;
  }
- h1{
- 	position: relative;
- 	left: 70px;
+ 
+ main section img {
+ 	display: flex;
+	transition: opacity 2s, transform 1s;
  }
+
+ main section img:hover {
+ 	transform: scale(1.5);
+}
+
+
+
